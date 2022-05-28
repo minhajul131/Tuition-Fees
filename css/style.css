@@ -1,0 +1,156 @@
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+.menu{
+    background-color: rgb(119, 119, 118);
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    color: aliceblue;
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.text-right{
+    text-align: right;
+}
+.login-form{
+    margin: 100px 100px;
+    padding: 40px;
+    background-color: blueviolet;
+    color: beige;
+}
+.box{
+    padding: 10px;
+    margin: 5px;
+}
+.box-search{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin: 10px;
+    padding: 6px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: blue;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+.buttonSubmit{
+    padding: 5px;
+    margin: 5px;
+}
+
+.table-full{
+    width: 100%;
+    background-color: wheat;
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	background-color: rgb(1, 21, 29); ;
+	color: aliceblue;
+}
+tr,
+td{
+    font-weight: bold;
+}
+.success{
+    color: rgb(97, 104, 86);
+}
+.error{
+    color: red;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: aqua;
+}
+h3{
+    color: rgb(223, 217, 217);
+    font-weight: bold;
+}
+h2{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+h4{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+.info{
+    margin-top: 40px;
+    margin-left: 35%;
+    flex: auto;
+    
+}
+.bg{
+    background-color: bisque;
+    padding: 6%;
+}
+.footer{
+    background-color: #2c2c54;
+    color: white;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.fa-solid fa-delete-left{
+    size: 2px;
+}
