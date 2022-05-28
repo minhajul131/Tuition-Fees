@@ -16,10 +16,16 @@
         <div class="text-center">
             <h1>Welcome to Tuition Fees System</h1>
 
-            <h4>Pay your fees By Bkash/Nagad (01700000000) </h3>
         </div>
         
         <div class="bg">
+            <div class="pay">
+                <h4>Pay your fees By Bkash/Nagad (01700000000) </h3>
+            </div>
+            <div class= "menu text-right">
+                <a style="padding: 5px" href="admin/index.php"> Admin Login</a>
+            </div>
+            
             <div class="info">
             <?php 
         
