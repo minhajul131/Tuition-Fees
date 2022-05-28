@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tution Fee</title>
+    <title>Tuition Fees</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -65,13 +65,13 @@
                 $_SESSION['user'] = $username; //TO check whether the user is logged in or not and logout will unset it
 
                 //Redirect to HOme Page/Dashboard
-                header('location:'.SITEURL.'admin/index.php');
+                echo "<script>window.open('index.php','_self')</script>";
             }
             else{
                 //User not Available and Login FAil
                 $_SESSION['login'] = "<div class='error text-center'>Username or Password did not match.</div>";
                 //Redirect to Home Page/Dashboard
-                header('location:'.SITEURL.'admin/admin_login.php');
+                echo "<script>window.open('admin_login.php','_self')</script>";
             }
 
         }

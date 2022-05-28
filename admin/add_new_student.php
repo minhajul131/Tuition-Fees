@@ -54,13 +54,15 @@
                     //Query Executed and Added
                     $_SESSION['add'] = "<div class='success text-center'>Added Successfully.</div>";
                     //Redirect to Manage Page
-                    header('location:'.SITEURL.'admin/index.php');
+                    echo "<script>window.open('index.php','_self')</script>";
+                    
                 }
                 else{
                     //Failed to Add 
                     $_SESSION['add'] = "<div class='error text-center'>Failed to Add.</div>";
                     //Redirect to Manage Page
-                    header('location:'.SITEURL.'admin/add_new_student.php');
+                    echo "<script>window.open('add_new_student.php','_self')</script>";
+                    
                 }
             }    
         ?>

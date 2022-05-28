@@ -12,12 +12,12 @@
         //echo "Student deleted";
         $_SESSION['delete'] = "<div class='success'>Deleted successfully.</div>";
         //reirect control page
-        header("location:".SITEURL.'admin/all_student.php');
+        echo "<script>window.open('all_student.php','_self')</script>";
     }
     else{
         //echo "Failed to delete admin";
         $_SESSION['delete'] = "<div class='error'>Failed to delete.</div>";
-        //reirect control page       
-        header("location:".SITEURL.'admin/all_student.php');
+        //reirect control page
+        echo "<script>window.open('all_student.php','_self')</script>";
     }
 ?>

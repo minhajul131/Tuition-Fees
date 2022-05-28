@@ -51,7 +51,7 @@
                                 <td><?php echo $student_id; ?></td>
                                 <td><?php echo $full_name; ?></td>
                                 <td><?php echo $contact_number; ?></td>
-                                <td><a href="<?php echo SITEURL; ?>admin/delete_student.php?student_id=<?php echo $student_id; ?>"</a>Delete</td>
+                                <td><a href="delete_student.php?student_id=<?php echo $student_id; ?>"</a>Delete</td>
                             </tbody>
 
                             <?php                            

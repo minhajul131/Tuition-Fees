@@ -9,7 +9,7 @@
         //Redirect to login page with message
         $_SESSION['no-login-message'] = "<div class='error text-center'>Please login to access Admin Panel.</div>";
         //Redirect to Login Page
-        header('location:'.SITEURL.'admin/admin_login.php');
+        echo "<script>window.open('admin_login.php','_self')</script>";
     }
 ?>
 
@@ -19,7 +19,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tution Fee</title>
+    <title>Tuition Fees</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 

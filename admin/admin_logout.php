@@ -6,5 +6,6 @@
     session_destroy(); 
 
     //2. REdirect to Login Page
-    header('location:'.SITEURL.'admin/admin_login.php');
+    echo "<script>window.open('admin_login.php','_self')</script>";
+    
 ?>
