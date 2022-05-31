@@ -1,3 +1,4 @@
 # Tuition-Fees
-admin username: admin
-admin password: admin
+admin username & password: 
+username: admin;
+password: admin
